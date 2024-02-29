@@ -1,0 +1,131 @@
+ody{
+  background-image: url('background.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+} 
+
+p{
+  font-family: Anton, Arial;
+}
+
+
+.landing-page{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+
+.information-section{
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  font-weight: 100;
+}
+
+.nike-logo{
+  height: 120px;
+}
+
+.shoe-name{
+  font-size: 80px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+
+.production-year{
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  border-radius: 3px;
+  padding-left: 4px;
+  padding-right: 4px;
+
+  font-size: 30px;
+  margin-top: 0;
+  width: fit-content;
+}
+
+.info-section{
+  width: 380px;
+  font-size: 18px;
+}
+
+.shop-button-container{
+  display: flex;
+  justify-content: center;
+}
+
+.shop-button{
+  margin-top: 30px;
+  font-family: Anton, Arial;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+  border-radius: 3px;
+  height: 50px;
+  width: 130px;
+
+  box-shadow: 2px 2px 10px rgba(0, 0, 0);
+
+  cursor: pointer;
+}
+
+.similar-options-container{
+  display: flex;
+  justify-content: center;
+}
+
+.similar-options-text{
+  font-size: 14px;
+  margin-top: 70px;
+  margin-bottom: 0;
+}
+
+.similar-options-section{
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.similar-options-section button{
+  border: solid;
+  border-width: 2px;
+  border-radius: 3px;
+  border-color: rgb(222, 222, 222);
+
+  margin: 4px;
+  cursor: pointer;
+}
+
+.similar-options-section img{
+  height: 150px;
+}
+
+.shoe-preview-section img{
+  transform: rotate(340deg);
+  height: 400px;
+}
+
+.color-select-section{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.color-select-section button{
+  margin-top: 5px;
+  border-width: 1px;
+  border-radius: 3px;
+  border-color: rgb(222, 222, 222);
+}
+
+.color-select-section img{
+  height: 100px;
+}
